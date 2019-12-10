@@ -113,6 +113,12 @@ php에서 받아온 파일을 script 부분에서 사용 할 수 있게끔 변�
 		   i=i+2;
 	  }
 ```
+
+
+<img src="https://user-images.githubusercontent.com/48506474/70508033-efb31700-1b70-11ea-9543-fabaa7bd5cb2.png" width=400px>
+
+
+
 maps.php(html5의 geolocation을 활용)
 현재 chromium의 일시적인 오류로 인해 안되지만 컴퓨터 크롬을 통해 확인 결과 문제가 없었다.
 maps.php와 비슷하나 위와 같은 부분이 추가 되었다.
