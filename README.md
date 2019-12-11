@@ -42,6 +42,16 @@ PHP 구문 안에
 
 ### 2. APACHE2 + PHP를 활용한 실시간 위치 추적과 장애물 마커 표시
 
+
+운전자들이 실시간으로 자신의 위치와 자신의 위치 주변에 장애물들을 확인하기 위하여 터치 디스플레이를 활용하였고, 디스플레이에 맞게 맞춤 제작하여 3D 모델링 기술을 사용하여 마감을 높여 완성도를 높였다.
+
+
+<img src="https://user-images.githubusercontent.com/48506474/70636293-9e8e4a80-1c78-11ea-96d1-d3db4cf0306b.png" width=400px>
+
+
+
+<img src="https://user-images.githubusercontent.com/48506474/70636770-6d624a00-1c79-11ea-9359-bc7237a8680f.jpg" width=400px>
+
 maps2는 새로고침을 이용한 방법이다.
 실시간 위치 표시와 장애물 마커 표시 (새로고침 버전)
 위치는 아파치 서버 경로 /var/www/html/에 넣어야 한다.
