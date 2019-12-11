@@ -53,9 +53,8 @@ PHP문을 통해 파일을 읽어오는데 읽어 오는 파일도 apache 서버
 
 <img src="https://user-images.githubusercontent.com/48506474/70605867-a6c99400-1c3e-11ea-83dc-32260347075a.JPG">
 
+https://youtu.be/vc8dTf_sdW0
 
-
-[![Video Label](https://youtu.be/vc8dTf_sdW0) Video Label
 
 
 PHP를 사용하여 서버 경로에 있는 txt파일을 읽어 변수로 받는 부분
