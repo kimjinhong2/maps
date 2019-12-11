@@ -49,6 +49,12 @@ PHP문을 통해 파일을 읽어오는데 읽어 오는 파일도 apache 서버
 
 마지막 부분에 구글 API 키를 넣는 부분이 있는데 그 부분에다가 https://github.com/suc1117/UnKnowN#4-google-map-api 위 페이지에 들어가서 참고하시고 구글 API를 받아서 넣으면 됩니다.
 
+
+
+<img src="https://user-images.githubusercontent.com/48506474/70605867-a6c99400-1c3e-11ea-83dc-32260347075a.JPG">
+
+
+
 PHP를 사용하여 서버 경로에 있는 txt파일을 읽어 변수로 받는 부분
 ```
 <?php
