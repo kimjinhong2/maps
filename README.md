@@ -3,12 +3,13 @@
 라즈베리파이 
 
 ### 1.APACHE2 + PHP
-APACHE 설치 방법 : 
+APACHE2 설치 방법 : 
 터미널창 실행 후에
 <pre>Sudo apt-get update</pre>
 ```Sudo apt-get install apache2 -y```
 
-아파치 설치 완료
+APACHE2 설치 완료
+
 테스트할때에는 브라우지 실행 후 localhost 또는 인터넷 ip주소를 입력하면
 <img src="https://user-images.githubusercontent.com/48506474/70411451-9f1abb80-1a95-11ea-9458-be031e5a0202.png" width=400px>
 
@@ -16,15 +17,23 @@ APACHE 설치 방법 :
 위와 같은 창이 뜬다. 서버의 경로는 /var/www/html/로 기본 설정된다.
 그 안에 index.html이 있는데 index.html이 기본 페이지이다.
 
-PHP 설치 하는법 :
+- PHP 설치 하는법 :
 <pre>Sudo apt-get install php libapache2-mod-php -y</pre>
 Sudo nano 만들고 싶은 파일이름.php
 
-Php 구문 작성 : 
+- Php 구문 작성 : 
 ```<?php echo “hello world”; ?>```
-Localhost/만들고 싶은 파일이름.php를 치면
+
+주소창에 localhost/만들고 싶은 파일이름.php를 치면
 Hello world를 볼 수 있다.
-php정보를 보고 싶으면 ```<?php phpinfo(); ?>```를 넣으면 아래와 같이 페이지에 나타납니다.
+- php정보 보기
+
+
+PHP 구문 안에
+
+```<?php phpinfo(); ?>```
+
+넣고 주소창에 해당 PHP를 불러오면 아래와 같이 페이지에 나타납니다.
 
 
 <img src="https://user-images.githubusercontent.com/48506474/70418585-0725cd80-1aa7-11ea-87e1-2be2069363c7.jpg" width=400px>
