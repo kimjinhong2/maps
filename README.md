@@ -3,14 +3,23 @@
 라즈베리파이 
 
 ### 1.APACHE2 + PHP
+
+
+
+APACHE2와 PHP를 사용하는 이유 : 관리 서버에서 접속하여 관리자가 지도를 볼 수 있게끔 하기 위하여 사용하였고, HTML 보안 문제로 인해 외부 파일을 자동으로 가져오는게 불가능하기 때문에 그에 대한 대안으로 PHP를 사용하여 파일 내용을 읽어 올 수 있다.
+
+
+
+
 APACHE2 설치 방법 : 
 터미널창 실행 후에
 <pre>Sudo apt-get update</pre>
+
 ```Sudo apt-get install apache2 -y```
 
 APACHE2 설치 완료
 
-테스트할때에는 브라우지 실행 후 localhost 또는 인터넷 ip주소를 입력하면
+테스트할때에는 브라우 실행 후 localhost 또는 인터넷 ip주소를 입력하면
 <img src="https://user-images.githubusercontent.com/48506474/70411451-9f1abb80-1a95-11ea-9458-be031e5a0202.png" width=400px>
 
 
